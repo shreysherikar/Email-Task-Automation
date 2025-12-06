@@ -1,0 +1,5 @@
+{
+  "subject": "CRITICAL: Production Server Down",
+  "body": "URGENT: The production server is experiencing downtime. We need to:\n\n1. Investigate the root cause immediately\n2. Restore service ASAP\n3. Notify all affected customers\n4. Prepare incident report\n\nThis is critical - please drop everything and focus on this.",
+  "sender": "ops@company.com"
+}

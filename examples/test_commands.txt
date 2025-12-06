@@ -1,0 +1,25 @@
+# Sample cURL Commands for Testing Email Ingestion
+
+# Test 1: Work-related email with multiple tasks
+curl -X POST http://localhost:8000/ingest-email -H "Content-Type: application/json" -d @examples/sample_emails.json
+
+# Test 2: Urgent email
+curl -X POST http://localhost:8000/ingest-email -H "Content-Type: application/json" -d @examples/sample_email_urgent.json
+
+# Test 3: Personal email
+curl -X POST http://localhost:8000/ingest-email -H "Content-Type: application/json" -d @examples/sample_email_personal.json
+
+# Test 4: Academic email
+curl -X POST http://localhost:8000/ingest-email -H "Content-Type: application/json" -d @examples/sample_email_academic.json
+
+# Test 5: Inline JSON (Windows)
+curl -X POST http://localhost:8000/ingest-email -H "Content-Type: application/json" -d "{\"subject\":\"Quick Task\",\"body\":\"Please review the document by tomorrow\",\"sender\":\"colleague@work.com\"}"
+
+# Get all tasks
+curl http://localhost:8000/tasks
+
+# Complete a task (replace TASK_ID with actual ID)
+curl -X POST http://localhost:8000/tasks/complete/TASK_ID
+
+# Health check
+curl http://localhost:8000/health

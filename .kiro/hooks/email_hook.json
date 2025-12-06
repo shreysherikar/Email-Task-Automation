@@ -1,0 +1,8 @@
+{
+  "name": "Email Task Extraction",
+  "description": "Automatically extracts tasks from incoming emails and stores them in the task database",
+  "trigger": "email_received",
+  "script": "kiro_email_hook.py",
+  "enabled": true,
+  "version": "1.0.0"
+}

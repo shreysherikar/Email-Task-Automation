@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email-to-Task Dashboard</title>
+    <link rel="stylesheet" href="styles.css?v=2.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>📧 Email-to-Task Dashboard</h1>
+            <button id="darkModeToggle" class="btn-icon" title="Toggle Dark Mode">🌙</button>
+        </header>
+
+        <!-- Metrics Section -->
+        <section class="metrics">
+            <div class="metric-card">
+                <h3>Total Tasks</h3>
+                <p id="totalTasks" class="metric-value">0</p>
+            </div>
+            <div class="metric-card">
+                <h3>Pending</h3>
+                <p id="pendingTasks" class="metric-value">0</p>
+            </div>
+            <div class="metric-card">
+                <h3>Completed</h3>
+                <p id="completedTasks" class="metric-value">0</p>
+            </div>
+            <div class="metric-card">
+                <h3>Urgent</h3>
+                <p id="urgentTasks" class="metric-value">0</p>
+            </div>
+        </section>
+
+        <!-- Filters Section -->
+        <section class="filters">
+            <div class="filter-group">
+                <label for="categoryFilter">Category:</label>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="Work">Work</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Academic">Academic</option>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Low Priority">Low Priority</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="statusFilter">Status:</label>
+                <select id="statusFilter">
+                    <option value="all">All Status</option>
+                    <option value="pending">Pending</option>
+                    <option value="done">Completed</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="urgencyFilter">
+                    <input type="checkbox" id="urgencyFilter">
+                    Urgent Only
+                </label>
+            </div>
+
+            <button id="clearFilters" class="btn-secondary">Clear Filters</button>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts">
+            <div class="chart-container">
+                <h3>Tasks by Category</h3>
+                <canvas id="categoryChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Tasks by Sender</h3>
+                <canvas id="senderChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Tasks List Section -->
+        <section class="tasks-section">
+            <h2>Tasks</h2>
+            <div id="tasksList" class="tasks-list">
+                <!-- Tasks will be dynamically inserted here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
