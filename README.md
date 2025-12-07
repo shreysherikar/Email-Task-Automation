@@ -61,13 +61,6 @@ Transform your inbox chaos into organized, actionable tasks with AI. This system
 </td>
 <td width="50%">
 
-![WhatsApp Image 2025-12-06 at 15 51 58_0aef1c86](https://github.com/user-attachments/assets/7e5d0de1-5e47-430e-ba27-e7ad6d6b3f92)
-
-![WhatsApp Image 2025-12-06 at 15 52 25_14f14015](https://github.com/user-attachments/assets/0f312cfc-8423-4d2c-afc7-5825cc04d4fe)
-
-![WhatsApp Image 2025-12-06 at 16 18 01_16ec08ed](https://github.com/user-attachments/assets/346502c8-8f89-4a9b-a587-b6dfb99ae712)
-
-
 **🔍 Advanced Filtering**
 - Filter by category
 - Filter by status (pending/done)
@@ -102,23 +95,16 @@ Transform your inbox chaos into organized, actionable tasks with AI. This system
 
 ## 🎬 Demo
 
-### Dashboard Screenshots
+![WhatsApp Image 2025-12-06 at 15 51 58_0aef1c86](https://github.com/user-attachments/assets/7e5d0de1-5e47-430e-ba27-e7ad6d6b3f92)
+
+![WhatsApp Image 2025-12-06 at 15 52 25_14f14015](https://github.com/user-attachments/assets/0f312cfc-8423-4d2c-afc7-5825cc04d4fe)
+
+![WhatsApp Image 2025-12-06 at 16 18 01_16ec08ed](https://github.com/user-attachments/assets/346502c8-8f89-4a9b-a587-b6dfb99ae712)
 
 **Light Mode - Task Overview**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  📊 Metrics: 5 Total | 5 Pending | 0 Done | 2 Urgent       │
-│  🔍 Filters: Category [All ▼] Status [All ▼]               │
-│  📈 Charts: [Pie Chart] [Bar Chart]                         │
-│                                                              │
-│  📋 Tasks:                                                   │
-│  ┌────────────────────────────────────────────────────────┐ │
-│  │ 🔴 URGENT | AWS KIRO WEEK-2 SUBMISSION DUE             │ │
-│  │ Due: Dec 7, 2025 | From: shreyasherikar18@gmail.com   │ │
-│  │ [✓ Complete]                                           │ │
-│  └────────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────┘
-```
+
+![WhatsApp Image 2025-12-06 at 15 51 58_511d0496](https://github.com/user-attachments/assets/65faeeb3-40b4-44e5-a62c-31ec3c0bd1ad)
+
 
 ### Email Processing Flow
 
