@@ -65,7 +65,7 @@ Transform your inbox chaos into organized, actionable tasks with AI. This system
 
 ![WhatsApp Image 2025-12-06 at 15 52 25_14f14015](https://github.com/user-attachments/assets/0f312cfc-8423-4d2c-afc7-5825cc04d4fe)
 
-![Uploading WhatsApp Image 2025-12-06 at 16.18.01_16ec08ed.jpg…]()
+![WhatsApp Image 2025-12-06 at 16 18 01_16ec08ed](https://github.com/user-attachments/assets/346502c8-8f89-4a9b-a587-b6dfb99ae712)
 
 
 **🔍 Advanced Filtering**
